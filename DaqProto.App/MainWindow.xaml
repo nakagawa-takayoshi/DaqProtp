@@ -1,0 +1,19 @@
+﻿<Window x:Class="DaqProto.App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DaqProto.App"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1200">
+    <DockPanel LastChildFill="True">
+        <StatusBar DockPanel.Dock="Bottom" Height="20" />
+        <Frame Content="Left" DockPanel.Dock="Left" BorderThickness="1" BorderBrush="LightGray" NavigationUIVisibility="Hidden" MinWidth="100" />
+        <StackPanel MinWidth="800" Background="Black" >
+
+        </StackPanel>
+
+        <Frame x:Name="MonitorFrame" x:FieldModifier="private" Content="Right" DockPanel.Dock="Right" BorderThickness="1" BorderBrush="LightGray" NavigationUIVisibility="Hidden" />
+
+    </DockPanel>
+</Window>

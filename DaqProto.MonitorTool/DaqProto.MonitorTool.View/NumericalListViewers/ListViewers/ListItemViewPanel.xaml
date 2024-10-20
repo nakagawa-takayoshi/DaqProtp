@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="DaqProto.MonitorTool.View.NumericalListViewers.ListViewers.ListItemViewPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DaqProto.MonitorTool.View.NumericalListViewers.ListViewers"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="300" AllowDrop="True">
+    <Border Background="{x:Static SystemColors.ControlBrush}">
+        <StackPanel Orientation="Vertical" >
+            <Label Content="Channel Name" Margin="20,2,0,0" />
+            <DockPanel LastChildFill="True" Margin="20,5,5,5" MinHeight="25">
+                <Label DockPanel.Dock="Right" Content="V" FontWeight="Bold" Background="White"  />
+                <Label x:Name="MesureValueText" Content="" Background="White" MinHeight="5" VerticalContentAlignment="Center" />
+            </DockPanel>
+            <DockPanel LastChildFill="True" Margin="20,5,5,5" MinHeight="25">
+                <Label DockPanel.Dock="Right" Content="V" FontWeight="Bold" Background="White"  />
+                <Label Content="" Background="White" MinHeight="5" />
+            </DockPanel>
+        </StackPanel>
+    </Border>
+</UserControl>

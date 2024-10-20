@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="NumericalListViewers\ListViewers\ListItemViewPanel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="NumericalListViewers\ListViewers\ListviewRowHeaderPanel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="NumericalListViewers\NumericalListViewerPanel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="NumericalListViewers\ListViewers\ListItemViewPanel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="NumericalListViewers\ListViewers\ListviewRowHeaderPanel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="NumericalListViewers\NumericalListViewerPanel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

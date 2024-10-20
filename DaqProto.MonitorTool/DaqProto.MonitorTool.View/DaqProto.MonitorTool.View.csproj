@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="R3" Version="1.2.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\NNR.SheardLibrary\Contrtol.Extentensions\Contrtol.Extentensions.csproj" />
+    <ProjectReference Include="..\..\NNR.Utilities\NNR.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
